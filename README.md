@@ -65,6 +65,7 @@ kubectl run --rm -it frontend --image=alpine --labels app=webapp,role=frontend -
 
 ## Short version
 git clone https://github.com/VadimusLitovus/NetworkPolicy-Calico
+
 kubectl create -f 1-namespace-development.yaml
 kubectl create -f 1-pod-svc-nginx-backend.yaml  
 kubectl create -f 1-pod-alpine-test.yaml  
